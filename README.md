@@ -11,6 +11,14 @@ Este proyecto es una aplicación de tareas (ToDo) desarrollada con Node JS como 
 - Ver tareas completadas
 - Ver tareas pendientes
 
+## Instalación backend via Docker
+
+1. Clonar el repositorio
+2. ubicarse en el directorio raiz
+3. Ejecutar los siguientes comandos `docker-compose build` y `docker-compose up -d`
+4. Aseguraese que el contenedor se este ejecutando, en el navegador vaya a la siguiente ruta: `http://localhost:8000`
+5. asegurece de ver el siguiente mensaje: `{"message": "Server is running..!"}`
+
 ## Instalación backend
 
 1. Clonar el repositorio
@@ -19,7 +27,7 @@ Este proyecto es una aplicación de tareas (ToDo) desarrollada con Node JS como 
 4. crear archivo .env y agregar las variables de entorno utilizar los datos del archivo example.env
 5. Iniciar el servidor con `npm run dev` o `pnpm install`
 
-## Instalación backend
+## Instalación Frontend
 
 1. Clonar el repositorio
 2. ubicarse en el directorio raiz
