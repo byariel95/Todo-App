@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  api:
+    build:
+      context: .
+      args:
+        - DB_URL=mongodb://mongo:27017/taskApp
+        - JWT_SECRET=mysecretToken
+        - PORT=8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+    environment:
+      - DB_URL=mongodb://mongo:27017/taskApp
+      - JWT_SECRET=mysecretToken
+      - PORT=8000
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
