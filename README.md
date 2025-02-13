@@ -16,15 +16,15 @@ Este proyecto es una aplicación de tareas (ToDo) desarrollada con Node JS como 
 1. Clonar el repositorio
 2. ubicarse en el directorio raiz
 3. Ejecutar los siguientes comandos `docker-compose build` y `docker-compose up -d`
-4. Aseguraese que el contenedor se este ejecutando, en el navegador vaya a la siguiente ruta: `http://localhost:8000`
-5. asegurece de ver el siguiente mensaje: `{"message": "Server is running..!"}`
+4. Asegúrese que el contenedor se este ejecutando, en el navegador vaya a la siguiente ruta: `http://localhost:8000`
+5. Asegúrese de ver el siguiente mensaje: `{"message": "Server is running..!"}`
 
-## Instalación backend
+## Instalación backend (2da Opcion)
 
 1. Clonar el repositorio
 2. ubicarse en el directorio raiz
 3. Instalar las dependencias con `npm install` o `pnpm install`
-4. crear archivo .env y agregar las variables de entorno utilizar los datos del archivo example.env
+4. crear archivo .env y agregar las variables de entorno utilizar los datos del archivo example.env buscar en este repositorio el archivo Guia Instalacion.pdf para mas informacion.
 5. Iniciar el servidor con `npm run dev` o `pnpm install`
 
 ## Instalación Frontend
